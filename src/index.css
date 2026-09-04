@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #FAF7F2;
+    --bg-secondary: #F4EDE4;
+    --accent: #8C7355;
+    --accent-gold: #A88B58;
+    --accent-rgb: 140, 115, 85;
+    --text: #1C1917;
+    --text-muted: #6E6255;
+    --border: #E5DCD1;
+    --font-serif-title: 'Bodoni Moda', Georgia, serif;
+    --font-serif-editorial: 'Cormorant Garamond', Garamond, serif;
+    --font-display: 'Italiana', serif;
+    --font-tenor: 'Tenor Sans', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+}
+
+.font-editorial {
+  font-family: 'Bodoni Moda', Georgia, serif;
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Garamond, serif;
+}
+
+.font-display {
+  font-family: 'Italiana', serif;
+}
+
+.font-tenor {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Artistic Flair Light Card Styling */
+.artistic-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(217, 197, 178, 0.45);
+  box-shadow: 0 20px 45px -10px rgba(80, 60, 40, 0.08);
+}
+
+.accent-line {
+  width: 40px;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* Luxury Light Film Grain Overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(140, 115, 85, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom minimal scrollbar for light theme */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8CBBC;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8C7355;
+}
+
+/* Subtle luxury animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+

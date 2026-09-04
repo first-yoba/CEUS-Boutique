@@ -1,0 +1,6 @@
+{
+  "name": "CEUS Luxury Fashion",
+  "description": "Editorial luxury fashion e-commerce experience for CEUS featuring cinematic photoshoot storytelling, scroll-driven campaigns, and high-fashion collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

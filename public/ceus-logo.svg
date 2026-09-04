@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%" aria-label="CÉUS Haute Couture Logo">
+  <defs>
+    <!-- Rich 3D Metallic Gold Linear Gradient -->
+    <linearGradient id="ceusGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="20%" stop-color="#F3E5AB" />
+      <stop offset="40%" stop-color="#AA771C" />
+      <stop offset="60%" stop-color="#FFDF73" />
+      <stop offset="80%" stop-color="#B8860B" />
+      <stop offset="100%" stop-color="#8A6014" />
+    </linearGradient>
+
+    <!-- Warm Highlight Gradient -->
+    <linearGradient id="ceusGoldHighlight" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#996515" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FFF4D0" />
+      <stop offset="70%" stop-color="#C59B27" />
+      <stop offset="100%" stop-color="#704214" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow for 3D Bevel depth -->
+    <filter id="goldBevelShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#5A3E1B" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <g filter="url(#goldBevelShadow)">
+    <!-- 4-Pointed Star Inside Upper C Loop -->
+    <path d="M 390 120 Q 390 150 365 150 Q 390 150 390 180 Q 390 150 415 150 Q 390 150 390 120 Z" 
+          fill="url(#ceusGoldHighlight)" stroke="#8A6014" stroke-width="1" />
+    
+    <!-- Monogram Interlocking C & S -->
+    <!-- Stylized Outer C -->
+    <path d="M 480 90 C 420 50 310 70 290 180 C 270 280 340 330 420 340 C 370 335 320 295 325 210 C 330 130 400 95 470 110 C 478 112 485 105 480 90 Z" 
+          fill="url(#ceusGoldGrad)" stroke="#7A5212" stroke-width="1.5" stroke-linejoin="round" />
+    
+    <!-- Stylized S Interlocking through C -->
+    <path d="M 480 185 C 475 160 440 145 405 160 C 365 178 375 220 425 240 C 485 265 495 330 445 375 C 395 415 320 395 305 355 C 300 342 315 338 322 350 C 345 385 410 390 440 360 C 470 330 455 285 405 265 C 355 245 340 195 385 160 C 425 130 480 145 485 178 C 488 190 482 195 480 185 Z" 
+          fill="url(#ceusGoldHighlight)" stroke="#7A5212" stroke-width="1.5" stroke-linejoin="round" />
+
+    <!-- Wordmark: C É U S with Accent on E -->
+    <!-- C -->
+    <text x="130" y="520" font-family="'Bodoni Moda', 'Playfair Display', 'Didot', serif" font-size="125" font-weight="600" fill="url(#ceusGoldGrad)" stroke="#8A6014" stroke-width="1.5" letter-spacing="4">C</text>
+    
+    <!-- Accent on E -->
+    <path d="M 315 410 L 345 385 L 340 405 Z" fill="url(#ceusGoldHighlight)" stroke="#7A5212" stroke-width="1" />
+    <!-- E -->
+    <text x="280" y="520" font-family="'Bodoni Moda', 'Playfair Display', 'Didot', serif" font-size="125" font-weight="600" fill="url(#ceusGoldGrad)" stroke="#8A6014" stroke-width="1.5" letter-spacing="4">E</text>
+    
+    <!-- U -->
+    <text x="440" y="520" font-family="'Bodoni Moda', 'Playfair Display', 'Didot', serif" font-size="125" font-weight="600" fill="url(#ceusGoldGrad)" stroke="#8A6014" stroke-width="1.5" letter-spacing="4">U</text>
+    
+    <!-- S -->
+    <text x="600" y="520" font-family="'Bodoni Moda', 'Playfair Display', 'Didot', serif" font-size="125" font-weight="600" fill="url(#ceusGoldGrad)" stroke="#8A6014" stroke-width="1.5" letter-spacing="4">S</text>
+  </g>
+</svg>
